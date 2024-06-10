@@ -1,1 +1,16 @@
 
+class Sem3:
+    classrep="Revathi"
+    placement="Gracen" 
+    def duties(self):
+        print("Attendence")
+        print("Pass important information")
+        
+        
+rep1=Sem3()
+pla2=Sem3()
+print(rep1.classrep)
+rep1.duties()   
+print(pla2.placement)
+pla2.duties()    
+    
