@@ -1,0 +1,12 @@
+class Python:
+  def __init__(self, teacher, studentno):
+    self.teacher = teacher
+    self.studentno = studentno 
+
+  def printname(self):
+    print(self.teacher, self.studentno)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Python("Diljith", 62)
+x.printname()
